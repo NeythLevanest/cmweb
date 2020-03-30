@@ -4,13 +4,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <a href="index.html" class="d-inline-block align-top logo"><img style="width:130px; heigth:30px;" src="./assets/img/logo.png" ></a>
+      <a [routerLink]="['home']" class="d-inline-block align-top logo"><img style="width:130px; heigth:30px;" src="./assets/img/logo.png" ></a>
       <!--a class="toggle">Menu</a-->
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 active">
-          <li class="nav-item active"><a class="nav-link text-white text-hover" href="#Home">Home</a></li>
-          <li class="nav-item dropdown active"><a class="nav-link text-white text-hover dropdown-toggle" 
-          href="#Servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">El Club</a>
+          <li class="nav-item active"><a class="nav-link text-white text-hover" [routerLink]="['home']">Home</a></li>
+          <li class="nav-item dropdown active"><a class="nav-link text-white text-hover dropdown-toggle" [routerLink]="['nosotros']"
+             id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">El Club</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="app-contabilidad">Contabilidad y Asesoría Tributaria</a>
             <a class="dropdown-item" href="app-diseno-web">Diseño de Aplicaciones Web</a>
@@ -18,11 +18,11 @@
             <a class="dropdown-item" href="#">Servicio de Prototipado</a>
             <a class="dropdown-item" href="#">Servicio de Impresión 3D</a>
           </div></li>
-          <li class="nav-item active"><a class="nav-link text-white text-hover" href="#Cursos">Integrantes</a></li>
-          <li class="nav-item active"><a class="nav-link text-white text-hover" href="#Contactanos">Eventos</a></li>
-          <li class="nav-item active"><a class="nav-link text-white text-hover" href="#Contactanos">Proyectos</a></li>
+          <li class="nav-item active"><a class="nav-link text-white text-hover" [routerLink]="['integrantes']">Integrantes</a></li>
+          <li class="nav-item active"><a class="nav-link text-white text-hover" [routerLink]="['visitas']">Eventos</a></li>
+          <li class="nav-item active"><a class="nav-link text-white text-hover" [routerLink]="['proyectos']">Proyectos</a></li>
         </ul>
       </div>
-       <a class="btn btn-outline-primary btn-lg" href="#contabilidad">Login</a>
+       <a class="btn btn-outline-primary btn-lg" [routerLink]="['login']">Login</a>
     </nav>  
 </header>
