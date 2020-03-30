@@ -1,6 +1,9 @@
 # Cmweb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+## El proyecto
+
+Este proyecto cuenta con dos archivos principales, el cmfrontend y el cmbackend, donde se desarrollar en angular y django respectivamente cada parte del sitio web
 
 ## Pre-requisitos
 Es necesario instalar lo siguiente:
