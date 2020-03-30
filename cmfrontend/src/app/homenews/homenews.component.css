@@ -22,13 +22,15 @@
     background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.6)) !important;
     z-index: 1;
 }
-.tag-description-btn h1{
+.tag-description h1{
     position: absolute;
-    top: 400px;
-    width: 500px;
+    top: 550px;
+    width: 550px;
     font-size: 16pt;
     text-align: left;
     padding-left: 50px;
+    color:white;
+    z-index:3;
 }
 .opcionnew{
     position: relative;
@@ -56,6 +58,9 @@
 .opcionnew:hover{
     background-color: rgb(0, 176, 246);
     z-index: 1;
+}
+.opcionnew:hover h1{
+    color:  rgb(0, 176, 246);
 }
 .columnewone{
     width: 25%;
