@@ -13,7 +13,7 @@ header {
 }
 
 header.cian {
-    background: rgba(12,90,219,.9)!important;
+    background:rgb(0, 176, 246)!important;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     transition: .5s;
     
@@ -80,7 +80,6 @@ ul li a:hover {
 
 .btn{
     width:100px;
-    height:40px;
 }
 .toggle {
     /*display:none;*/
