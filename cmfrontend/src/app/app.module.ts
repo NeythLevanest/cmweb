@@ -10,6 +10,7 @@ import { VisitasComponent } from './visitas/visitas.component';
 import {app_routing} from './app.routes';
   import { from } from 'rxjs';
 import { LoginComponent } from './login/login.component';
+import { NosotrosComponent } from './home/nosotros/nosotros.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { LoginComponent } from './login/login.component';
     HomenewsComponent,
     HomeComponent,
     VisitasComponent,
-    LoginComponent
+    LoginComponent,
+    NosotrosComponent
   ],
   imports: [
     BrowserModule,
