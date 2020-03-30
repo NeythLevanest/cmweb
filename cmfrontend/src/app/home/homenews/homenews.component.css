@@ -1,6 +1,7 @@
 .contenedor{
     position: relative;
 }
+
 .container_homenews{
     display: flex;
     width: 100%;

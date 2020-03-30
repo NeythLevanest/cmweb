@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { VisitasComponent } from './visitas/visitas.component';
 import {app_routing} from './app.routes';
   import { from } from 'rxjs';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {app_routing} from './app.routes';
     NavbarComponent,
     HomenewsComponent,
     HomeComponent,
-    VisitasComponent
+    VisitasComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
