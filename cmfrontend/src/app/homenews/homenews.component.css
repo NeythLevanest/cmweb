@@ -1,0 +1,51 @@
+.general-container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+.container_homenews{
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+.principalnew{
+    width: 50%;
+}
+.secondnew{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.columnewone{
+    width: 25%;
+    height: 100%;
+}
+.columnewtwo{
+    width: 25%;
+    height: 100%;
+}
+.img-principal{
+    width: 100%;
+    height: 100%;
+}
+
+.img-second{
+    width: 100%;
+    height: 275px;
+}
+.solicitud-admision{
+    width: 100%;
+    height: 50%;
+}
+.tag-description-btn{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
