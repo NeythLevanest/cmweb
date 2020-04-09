@@ -11,6 +11,8 @@ import {app_routing} from './app.routes';
   import { from } from 'rxjs';
 import { LoginComponent } from './login/login.component';
 import { NosotrosComponent } from './home/nosotros/nosotros.component';
+import { ProyectoshomeComponent } from './home/proyectoshome/proyectoshome.component';
+import { IntegrantesComponent } from './home/integrantes/integrantes.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { NosotrosComponent } from './home/nosotros/nosotros.component';
     HomeComponent,
     VisitasComponent,
     LoginComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    ProyectoshomeComponent,
+    IntegrantesComponent
   ],
   imports: [
     BrowserModule,
