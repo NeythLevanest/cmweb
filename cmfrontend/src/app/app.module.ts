@@ -13,6 +13,12 @@ import { LoginComponent } from './login/login.component';
 import { NosotrosComponent } from './home/nosotros/nosotros.component';
 import { ProyectoshomeComponent } from './home/proyectoshome/proyectoshome.component';
 import { IntegrantesComponent } from './home/integrantes/integrantes.component';
+import { FooterComponent } from './footer/footer.component';
+import { CursosComponent } from './cursos/cursos.component';
+import { IntegrantespageComponent } from './integrantespage/integrantespage.component';
+import { ProyectospagesComponent } from './proyectospages/proyectospages.component';
+import { PcuserpageComponent } from './pcuserpage/pcuserpage.component';
+import { NavbarcpanelComponent } from './pcuserpage/navbarcpanel/navbarcpanel.component';
 
 
 @NgModule({
@@ -25,7 +31,13 @@ import { IntegrantesComponent } from './home/integrantes/integrantes.component';
     LoginComponent,
     NosotrosComponent,
     ProyectoshomeComponent,
-    IntegrantesComponent
+    IntegrantesComponent,
+    FooterComponent,
+    CursosComponent,
+    IntegrantespageComponent,
+    ProyectospagesComponent,
+    PcuserpageComponent,
+    NavbarcpanelComponent
   ],
   imports: [
     BrowserModule,

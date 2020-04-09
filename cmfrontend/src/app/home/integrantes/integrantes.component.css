@@ -58,14 +58,30 @@
 .c-rigth-integrantes{
     position: relative;
     width: 70%;
-    display: flex;
     float: left ;
     justify-content: space-around;
 }
+.c-row-i{
+    display: flex;
+    justify-content: space-around;
+}
+.c-row-block{
+    display: block;
+    padding: 50px 20px 30px 20px;
+}
+.c-row-block div{
+    width: 100%;
+    text-align: right;
+}
+
 .card-f-g{
     -webkit-box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);
     -moz-box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);
     box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);   
+}
+.card-f-g span{
+    color: rgb(0, 84, 219);
+    font-weight: 900;
 }
 .card-zone-star{
     padding-left: 20px;
@@ -73,25 +89,31 @@
     top:35%;
     height: 30px;
     vertical-align: middle;
+    display: flex;
+    width: 100%;
 }
 .card-zone-star h5{
     color: white;
-    z-index: 2;
+
 }
-.card-zone-star:before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top:0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.6) !important;
-    /*background: rgba(29, 55, 99,0.5) !important;*/
-    z-index: 1;
+.card-c-stars{
+    list-style: none;
+    padding-left: 10px;
+    display: flex;
+    width: 20px;
 }
+.card-c-stars img {
+    width: auto;
+    height: 15px;
+}
+
+
 .card-description{
     padding-top: 10px;
     padding-left: 20px;
+}
+.card-description hr{
+    width: 80% !important
 }
 
 .btn-vermas{
@@ -105,10 +127,15 @@
 .btn-vermas p{
     width: auto;
     height: auto;
-    background-color: rgba(12,90,219); ;
+    background-color: rgb(45, 126, 255); 
     color: white;
     border-radius: 10px;
 }
+.btn-vermas p:hover{
+    background-color: rgb(0, 84, 219); 
+    cursor: pointer;
+}
+
 
 /*Card type 1 format*/
 
@@ -118,7 +145,7 @@
 }
 .card-id-t1 img{
     width: 100%;
-    overflow: hidden;
+    height: 35%;
 }
 
 /*Card type 2 format*/
