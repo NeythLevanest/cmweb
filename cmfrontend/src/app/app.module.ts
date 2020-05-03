@@ -3,22 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { HomenewsComponent } from './home/homenews/homenews.component';
-import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { HomenewsComponent } from './pages/home/homenews/homenews.component';
+import { HomeComponent } from './pages/home/home.component';
 import { VisitasComponent } from './visitas/visitas.component';
 import {app_routing} from './app.routes';
-  import { from } from 'rxjs';
+import { from } from 'rxjs';
 import { LoginComponent } from './login/login.component';
-import { NosotrosComponent } from './home/nosotros/nosotros.component';
-import { ProyectoshomeComponent } from './home/proyectoshome/proyectoshome.component';
-import { IntegrantesComponent } from './home/integrantes/integrantes.component';
+import { NosotrosComponent } from './pages/home/nosotros/nosotros.component';
+import { ProyectoshomeComponent } from './pages/home/proyectoshome/proyectoshome.component';
+import { IntegrantesComponent } from './pages/home/integrantes/integrantes.component';
 import { FooterComponent } from './footer/footer.component';
 import { CursosComponent } from './cursos/cursos.component';
-import { IntegrantespageComponent } from './integrantespage/integrantespage.component';
 import { ProyectospagesComponent } from './proyectospages/proyectospages.component';
-import { PcuserpageComponent } from './pcuserpage/pcuserpage.component';
-import { NavbarcpanelComponent } from './pcuserpage/navbarcpanel/navbarcpanel.component';
+import { DboarduserComponent } from './pages/dboarduser/dboarduser.component';
+import { HeaderbardbuComponent } from './shared/headerbardbu/headerbardbu.component';
+import { HomedbComponent } from './pages/dboarduser/homedb/homedb.component';
+import { PremiosComponent } from './pages/dboarduser/premios/premios.component';
+
 
 
 @NgModule({
@@ -34,10 +36,11 @@ import { NavbarcpanelComponent } from './pcuserpage/navbarcpanel/navbarcpanel.co
     IntegrantesComponent,
     FooterComponent,
     CursosComponent,
-    IntegrantespageComponent,
     ProyectospagesComponent,
-    PcuserpageComponent,
-    NavbarcpanelComponent
+    DboarduserComponent,
+    HeaderbardbuComponent,
+    HomedbComponent,
+    PremiosComponent
   ],
   imports: [
     BrowserModule,

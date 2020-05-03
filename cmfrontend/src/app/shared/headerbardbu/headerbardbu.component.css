@@ -1,0 +1,80 @@
+.navdbuser{
+    user-select: none;
+    min-width: 0px;
+    min-height: 0px;
+    position: relative;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    width: 320px;
+    height: 100%;
+    justify-content: space-around;
+    color:rgb(52, 55, 58);
+
+    -webkit-box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);
+    -moz-box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);
+    box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);   
+    flex-direction: column;
+}
+.logomenu{
+    justify-content: center;
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#logomenu{
+    height: 60px;
+    width: auto;
+  
+}
+
+.info-user{
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+#name-user{
+    color: rgb(40, 176, 255);
+}
+#img-user{
+    width: 100px;
+    height: auto;
+}
+.nav-options{
+    margin-top: 50px;
+}
+.nav-options ul li{
+    height: 40px;
+    list-style: none;
+    vertical-align: middle;
+}
+#icon{
+    width: 30px;
+    height: auto;
+    padding-left: 15px;
+}
+.nav-options ul li a{
+    list-style: none;
+    color: rgb(52, 55, 58);
+    padding-left: 30px;
+    vertical-align: middle;
+}
+.nav-options ul li:hover{
+    height: 40px;
+    width: 90%;
+    color: white;
+    background-color: rgb(40, 176, 255);
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);
+    -moz-box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);
+    box-shadow: 4px 3px 4px -1px rgba(204,204,204,0.64);   
+}
+.nav-options ul li a:hover{
+    text-decoration: none;
+    height: 40px;
+    width: auto;
+    list-style: none;
+    color: white;
+    vertical-align: middle;
+}
