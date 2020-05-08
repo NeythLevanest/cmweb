@@ -1,7 +1,15 @@
 <div class="dbcontrol-display">
     <app-headerbardbu></app-headerbardbu>
     <div class="board-work">
-        <p>Hola,bienvenido Neythan</p>
+        <div class="welcome-dbsesion shadow-box">
+            <div class="user-login">
+                <img id="img-user" src="../assets/img/iconos/usuario.png" alt="user">
+                <p id="name-user">Hola, bienvenido Usuario</p> 
+            </div>
+            <h6 id="estado-user">Estado</h6>
+            <a href="#/home">Cerrar Sesión</a>
+        </div>
+        
         <div class="inter-board-work">
             <router-outlet></router-outlet>
         </div>

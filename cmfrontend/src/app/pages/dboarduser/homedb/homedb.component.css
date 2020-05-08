@@ -1,0 +1,143 @@
+.report-options{
+    display: flex;
+    
+}
+.card-muser{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    width: 780px;
+    height: 200px;
+    justify-content: space-around;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 10px;
+    
+    color: rgb(255, 255, 255);
+}
+
+.user-login{
+    display: flex;
+
+}
+
+#img-user{
+    width: auto;
+    height: 20px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+#estado-user{
+    margin: 0;
+}
+
+.card-mpoints{
+    background-color: rgb(255,255,255);
+    width: 300px;
+    height: 200px;
+    justify-content: space-around;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 50px;
+    color: rgb(0,175,239)
+}
+.title-section-mpoints{
+    display: flex;
+    text-align: right;
+    vertical-align: middle;
+    justify-content: space-around;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    
+}
+.title-section-mpoints h5{
+    padding-top: 10px;
+    color: rgb(41, 41, 41);
+}
+.card-mpoints p{
+    color: rgb(41, 41, 41);
+}
+
+#icon-points{
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#icon-award{
+    width: 90px;
+    height: auto;
+    justify-items: center;
+    
+}
+
+.card-mpremios{
+    margin-top: 30px;
+    background-color: rgb(255,255,255);
+    width: 1130px;
+    height: auto;
+    justify-content: space-around;
+    text-align: right;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-right: 50px;
+    color: rgb(41, 41, 41);
+}
+.title-awards{
+    text-align: left;
+}
+.title-awards h4{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.card-maward{
+    margin-top: 30px;
+    background-color: white;
+    border: 0.2px solid;
+    border-color: rgb(212, 212, 212);
+    width: 200px;
+    height: 220px;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 15px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    color: rgb(41, 41, 41);
+}
+.card-maward:hover{
+    zoom: 1.05;
+}
+.title-section-maward{
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.grid{
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+    width: 90%;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 1160px){
+    .grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+}

@@ -19,6 +19,8 @@ import { ProyectospagesComponent } from './proyectospages/proyectospages.compone
 import { DboarduserComponent } from './pages/dboarduser/dboarduser.component';
 import { HeaderbardbuComponent } from './shared/headerbardbu/headerbardbu.component';
 import { HomedbComponent } from './pages/dboarduser/homedb/homedb.component';
+import { ProyectosComponent } from './pages/dboarduser/proyectos/proyectos.component';
+import { MaterialesComponent } from './pages/dboarduser/materiales/materiales.component';
 import { PremiosComponent } from './pages/dboarduser/premios/premios.component';
 
 
@@ -40,6 +42,8 @@ import { PremiosComponent } from './pages/dboarduser/premios/premios.component';
     DboarduserComponent,
     HeaderbardbuComponent,
     HomedbComponent,
+    ProyectosComponent,
+    MaterialesComponent,
     PremiosComponent
   ],
   imports: [
