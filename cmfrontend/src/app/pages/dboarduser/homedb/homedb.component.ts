@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./homedb.component.css']
 })
 export class HomedbComponent implements OnInit {
+  
+  camiseta : String = 'Camiseta Negra';
 
   constructor() { }
 

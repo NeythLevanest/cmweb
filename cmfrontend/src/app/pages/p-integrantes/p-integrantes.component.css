@@ -1,0 +1,125 @@
+.contenedor{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-style: helvetica;
+}
+.bg-title{
+    background-color: rgb(230, 230, 230);
+    height: 50px;
+    color: rgb(24, 80, 145);
+}
+.flex-c{
+    display: flex;
+}
+.pad-top{
+    padding-top: 50px;
+}
+.grid-service{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.grid-service-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.card-integrante{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    text-align: left;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    height: 40px;
+
+}
+.card-integrante p{
+    margin:0;
+}
+.card-member{
+    width: 300px;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+.mask{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    transform : scale(0.5);
+    transition: 0.5s ease;
+ 	-moz-transition: 0.5s ease; /* Firefox */
+ 	-webkit-transition: 0.5s ease; /* Chrome - Safari */
+ 	-o-transition: 0.5s ease; /* Opera */
+}
+.mask:hover{
+    cursor: pointer;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0;
+    transform : scale(1);
+		-moz-transform : scale(1); /* Firefox */
+		-webkit-transform : scale(1); /* Chrome - Safari */
+		-o-transform : scale(1); /* Opera */
+		-ms-transform : scale(1); /* IE9 */
+}
+.mask p{
+    color:  rgba(255, 255, 255, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.mask p:hover{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:  rgba(255,255,255);
+    
+}
+
+.cs-img-container{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.cs-img-container img{
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+}
+.card-descriptor{
+    background-color: rgb(230, 230, 230);
+    width: 250px;
+    height: auto;
+    top:330px;
+    left: 25px;
+    position: absolute;
+    text-align: center;
+    padding: 20px 15px 20px 15px;
+    z-index: 2;
+}
+.card-descriptor h1{
+    font-size: 14pt;
+}

@@ -5,11 +5,24 @@ import { VisitasComponent } from './visitas/visitas.component';
 import { LoginComponent } from './login/login.component';
 import { DboarduserComponent } from './pages/dboarduser/dboarduser.component';
 import { HomedbComponent } from './pages/dboarduser/homedb/homedb.component';
-import { ProyectosComponent } from './pages/dboarduser/proyectos/proyectos.component';
 import { MaterialesComponent } from './pages/dboarduser/materiales/materiales.component';
 import { PremiosComponent } from './pages/dboarduser/premios/premios.component';
+import { ProyectosComponent } from './pages/dboarduser/proyectos/proyectos.component';
+import { PNosotrosComponent } from './pages/p-nosotros/p-nosotros.component';
+import { PIntegrantesComponent } from './pages/p-integrantes/p-integrantes.component';
+import { PEventosComponent } from './pages/p-eventos/p-eventos.component';
+import { PProyectosComponent } from './pages/p-proyectos/p-proyectos.component';
+
+
 
 const app_routes: Routes =[
+    {path:'', component:HomeComponent},
+    {path:'nosotros', component:PNosotrosComponent},
+    {path:'integrantes', component:PIntegrantesComponent},
+    {path:'eventos', component:PEventosComponent},
+    {path:'proyectos', component:PProyectosComponent},
+    {path:'login', component:LoginComponent},
+    {path:'**', pathMatch:'full', redirectTo:'/'},
     {path:'dashboard', 
      component:DboarduserComponent,
      children: [
@@ -20,11 +33,6 @@ const app_routes: Routes =[
         {path:'', pathMatch:'full', redirectTo:'dashboard-home'}
      ]
     },
-    {path:'', component:HomeComponent},
-    {path:'visitas', component:VisitasComponent},
-    {path:'login', component:LoginComponent},
-    //{path:'**', pathMatch:'full', redirectTo:'home'}
-    
 ];
 
-export const app_routing = RouterModule.forRoot(app_routes, {useHash: true});
+export const app_routing = RouterModule.forRoot(app_routes, {useHash: false});

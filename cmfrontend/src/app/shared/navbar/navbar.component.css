@@ -1,5 +1,5 @@
 header {
-    
+    background-color: #fff;
     /*position: fixed;*/
     padding: 0 100px;
     width: 100%;
@@ -10,6 +10,7 @@ header {
     transition-duration: 0.5s;
     z-index: 9999;
     border-bottom: 5px solid rgb(0, 176, 246);
+    
 }
 
 header.cian {
@@ -58,6 +59,7 @@ ul li a {
 }
 
 ul li a:hover {
+    cursor: pointer;
     list-style: none;
     text-decoration: none;
     color:rgba(12,90,219)!important;
@@ -92,4 +94,10 @@ ul li a:hover {
     cursor: pointer;
     font-weight: bold;
     padding: 20px;
+}
+.sticky-top-2{
+    width: 100%;
+    top:0;
+    position: fixed;
+    z-index: 1020;
 }
