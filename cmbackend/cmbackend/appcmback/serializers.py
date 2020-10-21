@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from cmbackend.appcmback.models import TblUsuario, Proyecto, Eventos, Materiales, MaterialesPrestados, Premio, PremiosObtenidos
+from appcmback.models import TblUsuario, Proyecto, Eventos, Materiales, MaterialesPrestados, Premio, PremiosObtenidos
 
 class UsuarioSerializer (serializers.ModelSerializer):
     #owner = serializers.ReadOnlyField(source='owner.username')

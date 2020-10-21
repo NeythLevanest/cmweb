@@ -2,9 +2,9 @@ from django.urls import path
 from django.conf.urls import include
 from rest_framework.urlpatterns import format_suffix_patterns
 
-from appdoallies import views
+from appcmback import views
 
-from cmbackend.appcmback.views import *
+from appcmback.views import *
 from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()

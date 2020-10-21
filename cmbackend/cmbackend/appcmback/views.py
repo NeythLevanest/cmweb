@@ -11,8 +11,8 @@ from django_filters import rest_framework as filters
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.views import APIView
 from django.contrib.auth.hashers import make_password
-from cmbackend.appcmback.models import *
-from cmbackend.appcmback.serializers import *
+from appcmback.models import *
+from appcmback.serializers import *
 
 class UsuariosViewSet(viewsets.ModelViewSet):
     #permission_classes = [permissions.AllowAny]

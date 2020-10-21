@@ -21,10 +21,9 @@ import { PIntegrantesComponent } from './pages/p-integrantes/p-integrantes.compo
 import { PNosotrosComponent } from './pages/p-nosotros/p-nosotros.component';
 import { PEventosComponent } from './pages/p-eventos/p-eventos.component';
 import { PProyectosComponent } from './pages/p-proyectos/p-proyectos.component';
-
-
-
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +41,7 @@ import { PProyectosComponent } from './pages/p-proyectos/p-proyectos.component';
     PNosotrosComponent,
     PEventosComponent,
     PProyectosComponent,
+    RegisterComponent,
    
 
   ],
@@ -49,7 +49,10 @@ import { PProyectosComponent } from './pages/p-proyectos/p-proyectos.component';
     BrowserModule,
     AppRoutingModule,
     app_routing,
-    HomeModules
+    HomeModules,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

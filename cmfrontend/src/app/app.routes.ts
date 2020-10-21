@@ -12,6 +12,7 @@ import { PNosotrosComponent } from './pages/p-nosotros/p-nosotros.component';
 import { PIntegrantesComponent } from './pages/p-integrantes/p-integrantes.component';
 import { PEventosComponent } from './pages/p-eventos/p-eventos.component';
 import { PProyectosComponent } from './pages/p-proyectos/p-proyectos.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -22,6 +23,7 @@ const app_routes: Routes =[
     {path:'eventos', component:PEventosComponent},
     {path:'proyectos', component:PProyectosComponent},
     {path:'login', component:LoginComponent},
+    {path:'registrar', component:RegisterComponent},
     {path:'**', pathMatch:'full', redirectTo:'/'},
     {path:'dashboard', 
      component:DboarduserComponent,

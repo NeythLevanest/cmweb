@@ -86,7 +86,7 @@ class Proyecto(models.Model):
     Consultor = models.CharField(max_length=100, default=None)
     Equipo = models.CharField(max_length=400, default=None)
     imagenProject = models.ImageField()
-    idUsuario = models.OneToOneField(TblUsuario, on_delete=models.PROTECT)
+    idUsuario = models.ManyToManyField(TblUsuario)
 
     def __str__(self):
         return str(self.id)
@@ -96,7 +96,7 @@ class Eventos(models.Model):
     descripcion = models.CharField(max_length=1000, default=None)
     fecha = models.DateField()
     imagenProject = models.ImageField()
-    idUsuario = models.OneToOneField(TblUsuario, on_delete=models.PROTECT)
+    idUsuario = models.ManyToManyField(TblUsuario)
 
     def __str__(self):
         return str(self.id)
